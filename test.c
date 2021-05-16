@@ -1,8 +1,11 @@
 #include<stdio.h>
+void check(int a)
+{
+    int i = 4 ;
+    printf("%d" , check(i));
+}
 int main()
 {
-    int i = 5  , j = 5; 
-    if(i=j)
-        printf("no error");
+   check(4);
 
 }

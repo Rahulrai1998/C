@@ -1,11 +1,13 @@
 #include<stdio.h>
-void check(int a)
-{
-    int i = 4 ;
-    printf("%d" , check(i));
-}
+
 int main()
 {
-   check(4);
+   int a ; 
+   char b ; 
+   scanf("%d",&a);
+   fflush(stdin);
+   scanf("%c",&b);
+   printf("%d %c",a,b);
+
 
 }

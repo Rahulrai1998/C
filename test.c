@@ -1,12 +1,8 @@
 #include<stdio.h>
+
+int x = 10 ; 
 int main()
 {
-   char c; 
-   while(1)
-   {
-      scanf("%c",&c);
-      printf("ASCII of %c is %d\n",c,c);
-      fflush(stdin);
-   } 
+   fun();
    return 0;
-}
+} 
